@@ -1,0 +1,256 @@
+body{
+    background-image:radial-gradient(rgba(255, 81, 0, 0.966),rgb(255, 136, 57),rgb(255, 81, 0));
+    color: white;
+}
+
+.container{
+    width: 1024px;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right:auto;   
+}
+.head{
+    background-color: black;
+}
+header{
+    background-image:radial-gradient(rgba(255, 81, 0, 0.781),rgba(243, 136, 65, 0.829),rgba(255, 81, 0, 0.877));
+    opacity: .9;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    min-width: 65%;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+main{
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content2{
+    padding-left: 40px;
+    min-height: 100px;
+    flex: 2;
+}
+
+.photo2{
+    background-color: white;
+    margin-left: 5%;
+    min-height: 100px;
+    flex: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 1.5px;
+    min-width: 350px;
+}
+.content{
+    margin-left: 10%;
+    min-height: 100px;
+    flex: 2;
+}
+
+.photo{
+    background-color: white;
+    margin-right: 2.1%;
+    min-height: 100px;
+    flex: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 1.5px;
+}
+
+.adbanner{
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 1.5px;
+}
+.cards{
+    background-color: white;
+    margin-bottom: 25px;
+    min-height: 20px;
+    display:flex;
+    justify-content:space-evenly;
+    padding-left: 13.5px;
+    padding-bottom: 1.5px;
+    padding-top: 5px;
+}
+.card1s{
+    width: 25%;
+} 
+.card2s{
+    width: 25%;
+}
+.card3s{
+    width: 25%;
+}
+.card4s{
+    width: 25%;
+}
+.card{
+    margin-bottom: 25px;
+    background-color: white;
+    min-height: 250px;
+    display:flex;
+    justify-content:space-evenly;
+    padding-bottom: 1.5px;
+    padding-top: 5px;
+
+}
+.card1{
+    width: 33%;
+} 
+.card2{
+    width: 33%;
+}
+.card3{
+    width: 31.9%;
+}
+.card1000{ 
+    background-color: white;
+    min-height: 250px;
+}
+.card-1000{
+    padding-top: 5px;
+    padding-bottom: 2.5px;
+    /*padding-left: 100px;*/
+    display:flex;
+}
+.card-2x{
+    
+    margin-top: 25px;
+    background-color: white;
+    min-height: 50px;
+    min-width: 200px;
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 16px;
+}
+.card-4x{
+  display: flex;
+  justify-content:space-around; 
+}
+.a-500{
+    padding-left: 5px;
+    width: 50%;
+}
+.moblie{
+    display: none;
+}
+.desktop{
+    display: block;
+}
+footer{
+    min-width: 1224px;
+    min-height: 50px;
+    margin-bottom: -30px;
+    margin-top: 30px;
+    margin-left: -100px;
+    background-image:radial-gradient(rgba(255, 81, 0, 0.781),rgba(243, 136, 65, 0.829),rgba(255, 81, 0, 0.877));
+    
+}
+.footer-menu{
+    background-color:rgba(0, 0, 0, 0.418);
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-left: 3px;
+    padding-top: 25px;
+}
+.footer-logo{
+    padding: 30px;
+    margin-left: -30px;
+    min-width: 200px;
+    text-align: center;
+}
+.footer-list{
+    min-width: 200px;
+}
+.footer-service{
+    min-width: 200px;
+}
+.footer-social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -40px;
+}
+
+footer p {
+    text-align: left;
+    line-height: 25px;
+}
+.icon {
+	position:relative;
+	text-align:center;
+	width:0px;
+	height:0px;
+	padding:20px;
+	border-top-right-radius: 	20px;
+	border-top-left-radius: 	20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 	20px; 
+	-moz-border-radius: 		20px 20px 20px 20px;
+	-webkit-border-radius: 		20px 20px 20px 20px;
+	-khtml-border-radius: 		20px 20px 20px 20px; 	
+	color:#FFFFFF;
+}
+.icon i {
+	font-size:20px;
+	position:absolute;
+	left:9px;
+	top:10px;
+}
+.icon.social {
+	float:left;
+	margin:0 5px 0 0;
+	cursor:pointer;
+	background:white ;
+	color:rgba(255, 81, 0, 0.781);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}
+.icon.social:hover {
+    background-color:rgba(255, 81, 0, 0.781);
+	color:white;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-filter:	drop-shadow(0 1px 10px rgba(240, 124, 15, 0.8));
+	-moz-filter: 	drop-shadow(0 1px 10px rgba(240, 124, 15, 0.8));
+	-ms-filter: 		drop-shadow(0 1px 10px rgba(240, 124, 15, 0.8));
+	-o-filter: 		drop-shadow(0 1px 10px rgba(240, 124, 15, 0.8));
+	filter: 			drop-shadow(0 1px 10px rgba(240, 124, 15, 0.8));	 	
+}
+.icon.social.fb i {
+	left:13px;
+	top:10px;
+}
+.icon.social.tw i {
+	left:11px;
+}
+.icon.social.in i {
+	left:11px;
+}

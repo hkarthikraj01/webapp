@@ -1,0 +1,130 @@
+@media (max-width: 700px) {
+    body{
+        background-image:radial-gradient(rgba(255, 30, 0, 0.966),rgb(255, 80, 57),rgb(255, 30, 0));
+        color: white;
+    }
+    .container{
+        width: 500px;
+        min-height: 100px;
+        margin-left: 0px;
+        margin-right:auto;   
+    }
+    main{
+        display: block;
+    }
+    .content{
+        margin-left: 5%;
+        min-height: 100px;
+    }
+    .photo{
+        min-height: 100px;
+        margin-left: 45px;
+        padding-right: 5px;
+        margin-bottom: 10px;
+        width: 350px;
+    }
+        
+    .cards{
+        display: block;
+        padding-left: 5px;
+        margin-left: 100px;
+        padding-top: 5px;
+        margin-top: 5px;
+        width: 240px;
+        padding-right: 5px;
+    }
+    .card-2xm2a{
+        margin-left: -4px;
+        min-height: 50px;
+        margin-bottom: -15px;
+        min-width: 240px;
+        height: 250px;
+        display: flex;
+        padding: 4px;
+        justify-content: space-around;
+    }
+    
+    .photo2{
+        margin-left: 45px;
+        padding-right: 5px;
+        padding-bottom: -150px;
+        margin-bottom: 10px;
+        width: 350px;
+    }
+    .content2{
+        margin-left: -5%;
+        min-height: 100px;
+    }
+    .card{
+        display: block;
+        width: 330px;
+    padding-left: 5px;
+    margin-left: 55px;
+    }
+    .card-1000
+    {
+        display: block;
+        background-color: rgb(255, 255, 255);
+        margin-left: -5px;
+        padding-right: 5px;
+        padding-top: 4px;
+        min-height: 252px;
+
+    }
+    .card-2xm2{
+        margin-left: -5px;
+        min-height: 50px;
+        min-width: 240px;
+        height: 250px;
+        display: flex;
+        padding: 4px;
+        justify-content: space-around;
+    }
+    .cd-a{
+        padding-right: 5px;
+    }
+    .card-2xm1{
+    min-height: 50px;
+    min-width: 240px;
+    padding: 5px;
+    margin-left: -4px;
+    }
+   /* .card-2xm1a{
+        
+    width: 250px;
+    height: 500px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 118px;
+
+    }*/
+    .card-4x{
+        display: block;
+    }
+    .moblie{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .cv{
+        display: flex;
+    }
+    footer{
+        display: none;
+    }
+
+ /*   
+ .mob-nav{
+        display: none;
+    }
+    .f{
+        display: flex;
+        justify-content: space-between;
+    }
+    .mob-nav a{
+        display: none;
+    }*/
+  }
